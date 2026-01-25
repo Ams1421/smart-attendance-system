@@ -1,0 +1,74 @@
+.qr-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.qr-card {
+  background: #ffffff;
+  padding: 30px 28px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.qr-card h2 {
+  margin-bottom: 6px;
+  color: #2c3e50;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 22px;
+}
+
+.qr-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 18px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qr-input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.15);
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+  width: 100%;
+}
+
+.btn.primary {
+  background: #3498db;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.message {
+  margin-top: 14px;
+  font-weight: 600;
+  color: #27ae60;
+}
+
+.face-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
